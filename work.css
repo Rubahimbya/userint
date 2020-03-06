@@ -1,0 +1,74 @@
+
+
+
+
+.main{
+    display: flex;
+    margin: o;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+}
+.leftdiv{
+    background-color: dodgerblue;
+    flex-basis: 10px;
+    width: 50%;
+    height: 600px;
+    float: left;
+    background-image: url(index.png);
+    background-image: no-repeat;
+    background-size: cover;
+}
+.right{
+    background-color:white;
+    width: 50%;
+    flex-basis: 10px;
+    height: 600px;
+    text-align: center;
+    float: right;
+
+}
+h5{
+    color: white;
+}
+h3{
+    color: white;
+}
+.clon{
+    border-radius: 20px;
+    color: dodgerblue;
+}
+h4{
+   text-align: center;
+   padding-top: 150px;
+}
+.mak{
+    text-align: center;
+    color: black;
+
+}
+.btnsignup{
+    width: 400px;
+    height: 30px;
+    color: white;
+    border-radius: 20px;
+    background-color:dodgerblue;
+}
+.log
+{
+    width: 400px;
+    height: 40px;
+    border-radius: 20px;
+    color:  dodgerblue;
+}
+.nb{
+    color: gray;
+}
+.pic
+{
+    content: ;
+}
+h2{
+    font-weight: bold;
+}

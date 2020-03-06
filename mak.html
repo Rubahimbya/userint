@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <img src="pc.png" id=img>
+    </div>
+    <button id="show">show</button><button id="hide">Hide</button>
+    <button onclick="displayDate()">The time is?</button>
+    <script type="text/javascript">
+    let image=document.getElementById('img');
+    let see=document.getElementById('show');
+    let hid=document.getElementById('hide');
+    let kot=document.getElementById('time');
+    
+
+
+hid.onclick= function(){
+    image.style.display="none"
+}
+see.onclick= function(){
+    image.style.display="block"
+}
+kot.onclick= function(){
+    image.style.display="block"
+}
+
+
+
+
+</script>
+    </body>
+</html>
